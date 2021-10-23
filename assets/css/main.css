@@ -1,0 +1,353 @@
+@import "./responsive.css";
+
+*{margin: 0px; padding: 0px;}
+/*--------------------------------------NAVBAR--------------------------------------*/
+.navbar{
+    width: auto;
+    
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+.web-logo{
+    position: absolute;
+    width: 162.57px;
+    height: 24px;
+    left: 72px;
+    top: 24px;
+}
+.web-logo span{
+    color: #27A365;
+}
+.web-logo img{
+    width: 15px;
+    height: 14px;
+}
+.nav-search-bar{
+    position: absolute;
+    width: 360px;
+    height: 42px;
+    left: 540px;
+    top: 16px;
+    background: #F2F2F2;
+    border-radius: 21px;    
+    display: inline-flex;
+}
+.nav-search-bar .fas{
+    position:inherit;
+    color: #7A7A7A;
+    margin: 12px 15px 1px 15px;
+}
+.nav-search-bar #nav-input{
+    margin: 12px 68px 11px 50px;
+    width: 242px;
+    height: 19px;
+    left: 590px;
+    top: 28px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5C5C5C;
+    outline: none;
+    border-color: transparent;
+}
+.nav-search-bar input[type="text"]{
+    background-color: #F2F2F2; 
+}
+.nav-login-function{
+    position: absolute;
+    width: 183px;
+    height: 21px;
+    left: 1100px;
+    top: 27px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #2E2E2E;
+}
+.nav-login-function span{
+    color: #2f6ce5;
+    font-weight: 900;
+}
+.nav-login-function .fas{
+    position: absolute;
+    left: 0%;
+    right: -15px;
+    top: 0%;
+    bottom: 0%; 
+}
+/*--------------------------------------Home Banner--------------------------------------*/
+.home-banner{
+    width: 1440x;
+    height: 440px;
+    left: 0px;
+    top: 72px;
+    background-image: url("./assets/img/Rectangle2.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+.home-banner h1{
+    position: absolute;
+    width: 378px;
+    height: 47px;
+    left: 200px;
+    top: 358px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.home-banner h6{
+    position: absolute;
+    width: 327px;
+    height: 23px;
+    left: 200px;
+    top: 409px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+/*--------------------------------------post card data--------------------------------------*/
+.main-content-home-page{
+    margin-top: 20px;
+}
+
+/*tabs button*/
+.tab-btns .tab-Write-Post-btn{
+    position: absolute;
+    width: 133px;
+    height: 36px;
+    left: 950px;
+    top: 532px;
+    outline: none;
+    background: #EDEEF0;
+    border-radius: 4px;
+    border-color: transparent;
+}
+.tab-btns .tab-Join-Group-btn{
+    position: absolute;
+    width: 125px;
+    height: 36px;
+    left: 1100px;
+    top: 532px;
+    outline: none;
+    color: #fff;
+    background: #2F6CE5;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.main-content-home-page .card{
+    margin-top: 30px;
+}
+.main-content-home-page .card h3{
+    margin-top: 20px;
+}
+.main-content-home-page .card h6{
+    margin-top: 20px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 134.17%;
+    color: #5C5C5C;
+}
+.main-content-home-page .card .post-btn{
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+.main-content-home-page .card .post-user-data{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.main-content-home-page .card .post-user-data .user-img{
+    width: 48px;
+    height: 48px;   
+    border-radius: 24px;
+    margin-right: 10px;
+}
+.main-content-home-page .card .post-user-data span{
+    font-weight: bold;
+}
+.main-content-home-page .card .post-user-data p{
+    position: absolute;
+    margin: 10px;
+    right: 100px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: right;
+    color: #525252;
+}
+.main-content-home-page .card .post-user-data button{
+    position: absolute;
+    padding: 5px 10px 7px 10px;
+    right: 20px;
+    background: #EDEEF0;
+    border-radius: 2px;
+    border-color: transparent;
+    outline: none;
+}
+/*meet tab*/
+.main-content-home-page .card .card-meet-btn{
+    width: 100%;
+    height: 38px;
+    background: #FFFFFF;
+    border: 0.7px dashed #A9AEB8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    text-align: center;
+    color: #E56135;
+    outline: none;
+}
+/*job tab*/
+.main-content-home-page .card .card-job-btn{
+    width: 100%;
+    height: 38px;
+    background: #FFFFFF;
+    border: 0.7px dashed #A9AEB8;
+    box-sizing: border-box;
+    border-radius: 8px; 
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    text-align: center;
+    color: #02B875;
+    outline: none;
+}
+/*--------------------------------------user data--------------------------------------*/
+.users-side-bar{
+    margin-top: 40px;
+    border-bottom:#ddd 10px;
+}
+.users-side-bar input{
+    margin-left: 10px;
+    width: 80%;
+    border-color: transparent;
+    outline: none;
+}   
+.users-side-bar p{
+    margin-top: 20px;
+}
+.users-side-bar h5{
+    margin-top: 50px;
+}
+.users-side-bar .user-data{
+    margin-bottom: 10px;
+}
+.users-side-bar .users{
+    display: flex;
+    margin-top: 20px;
+}
+.users-side-bar .users img{
+    width: 36px;
+    height: 36px;
+    border-radius: 21px;
+}
+.users-side-bar .users button{
+    width: 60px;
+    height: 24px;
+    background: #EDEEF0;
+    border-radius: 14px;
+    outline: none;
+    border-color: transparent;
+}
+.users-side-bar .more-user{
+    float: right;
+}
+/*--------------------------------------signIn/login fun--------------------------------------*/
+.modal .close{
+    margin-top: -80px;
+    background: #FFFFFF;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    padding:0px 5px;
+    text-align: center;
+    outline: none;
+}
+.modal .modal-header{
+    background-color: #EFFFF4;
+    border-radius: 8px 8px 0px 0px;
+}
+.modal .modal-title{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #008A45;
+}
+.modal .modal-body h2{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #000000;
+}
+.modal-body .btn-primary{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 50px;
+}
+.modal table input{
+    background-color: #F7F8FA;
+}
+.modal .api-singup-btn{
+    margin-top: 20px;
+}
+.modal .api-singup-btn .fb-btn,.google-btn{
+    margin-top: 10px;
+    width: 100%;
+    border: 0.6px solid #D9D9DB;
+}
+.modal p{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px; 
+    text-align: right;
+    color: #3D3D3D;
+}
+.modal .bottom-p{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.008em;
+    color: #000000;
+    opacity: 0.6;
+}
